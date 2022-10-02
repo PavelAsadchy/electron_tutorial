@@ -1,0 +1,14 @@
+{
+  "name": "electron_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "pavel asadchy",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^21.0.1"
+  }
+}

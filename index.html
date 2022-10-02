@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello from Electron renderer!</title>
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+  <h1>Hello from Electron renderer!</h1>
+  <p>👋</p>
+  <p id="info"></p>
+  <button type="button" id="ping">Do ping</button>
+  <p id="response"></p>
+
+  <div>
+    <p>Current theme source: <strong id="theme-source">System</strong></p>
+
+    <button id="toggle-dark-mode">Toggle Dark Mode</button>
+    <button id="reset-to-system">Reset to System Theme</button>
+  </div>
+</body>
+<script src="./renderer.js"></script>
+</html>
